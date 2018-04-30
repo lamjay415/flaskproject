@@ -1,1 +1,1 @@
-"web: gunicorn sample.py:main" 
+"web: gunicorn sample:main" 
