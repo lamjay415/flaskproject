@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+	<head>
+		  <title>Weather Forecast</title>
+	   </head>
+	   <h1>Please fill in the boxes to get Weather Forecast</h1>
+			<form action = "{{  url_for('result') }}"  method = "post">
+				<label>City  :</label><input type = "text" name = "city" class = "box"/><br /><br />
+				<label>Country Code(us,eu,cn,etc)  :</label><input type = "text" name = "code" class = "box" /><br/><br />
+                <label>Zipcode  :</label><input type = "text" name = "zip" class = "box"/><br /><br />
+				<input type = "submit" value = " Submit "/><br />
+			</form>
+</html>
