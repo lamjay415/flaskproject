@@ -1,1 +1,1 @@
-"web: gunicorn sample:main" 
+"worker: python sample.py" 
