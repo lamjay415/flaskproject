@@ -13,7 +13,7 @@ oauthlib = "==0.7.2"
 requests = ">=2.2.1"
 simplejson = "==3.8.2"
 Flask = "==0.10.1"
-"Jinja2" = "==2.8"
+"Jinja2" = "==2.11.3"
 
 [requires]
 python_version = "2.7"
